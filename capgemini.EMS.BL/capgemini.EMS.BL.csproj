@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NEST" Version="7.17.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\capgemini.EMS.DAL\capgemini.EMS.DAL.csproj" />
+    <ProjectReference Include="..\capgemini.EMS.Entities\capgemini.EMS.Entities.csproj" />
+    <ProjectReference Include="..\capgemini.EMS.EXceptions\capgemini.EMS.EXceptions.csproj" />
+  </ItemGroup>
+
+</Project>
